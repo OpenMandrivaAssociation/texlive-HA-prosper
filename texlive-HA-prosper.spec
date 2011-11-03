@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/ha-prosper
+# catalog-date 2006-12-03 19:48:14 +0100
+# catalog-license lppl
+# catalog-version 4.21
 Name:		texlive-HA-prosper
 Version:	4.21
 Release:	1
@@ -67,6 +73,7 @@ further.
 #- source
 %doc %{_texmfdistdir}/source/latex/HA-prosper/HA-prosper.def
 %doc %{_texmfdistdir}/source/latex/HA-prosper/HA-prosper.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -77,3 +84,5 @@ further.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
