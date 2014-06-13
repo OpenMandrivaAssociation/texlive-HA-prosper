@@ -6,7 +6,7 @@
 # catalog-version 4.21
 Name:		texlive-HA-prosper
 Version:	4.21
-Release:	6
+Release:	7
 Summary:	Patches and improvements for prosper
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ha-prosper
