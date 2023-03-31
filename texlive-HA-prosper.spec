@@ -1,6 +1,6 @@
 Name:		texlive-HA-prosper
 Version:	59651
-Release:	1
+Release:	2
 Summary:	Patches and improvements for prosper
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ha-prosper
