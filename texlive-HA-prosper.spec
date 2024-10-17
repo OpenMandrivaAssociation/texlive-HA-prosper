@@ -3,7 +3,7 @@ Version:	59651
 Release:	2
 Summary:	Patches and improvements for prosper
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ha-prosper
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ha-prosper
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ha-prosper.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ha-prosper.doc.r%{version}.tar.xz
